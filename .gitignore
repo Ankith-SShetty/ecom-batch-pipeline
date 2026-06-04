@@ -1,0 +1,27 @@
+# Dataset — too large for Git
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Environment
+.env
+.env.*
+
+# Airflow
+airflow/logs/
+airflow/*.db
+
+# Mac
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Docker
+*.log
